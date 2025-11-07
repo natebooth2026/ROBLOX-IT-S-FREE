@@ -5,6 +5,7 @@ To run the executable:
    
 To run my code:
 1. The VS2022 project needs to be setup to support the following includes:
+   
 	`#include <GL/glut.h>
 	#include <GL/freeglut.h>
 	#include <windows.h>
@@ -15,11 +16,14 @@ To run my code:
 	#include <vector>
 	#include <irrKlang/irrKlang.h>
 	using namespace irrklang;`
-2. In the project folder where main.cpp will be housed, place the audio folder into that directory
-3. Go into the provided IRRKLANG folder and take and place irrKlang.lib file into the ./lib directory (make sure to include irrklang.lib as an Additional Dependency in Project Properties-->Linker-->General)
-4. In the same IRRKLANG folder, take the IrrKlang folder and place into the ./include directory
-5. In the same IRRKLANG folder, take the irrKlang.dll and ikpMP3.dll files and place into the same directory you placed main.cpp
-6. Run the code :)
+
+2. In the project folder where main.cpp will be housed, place the audio folder & main.cpp into that directory
+3. Place the provided `include` & `lib` directories into the project directory
+4. Go to Project Properties --> C/C++ --> General --> Additional Include Directories and insert `./include`
+5. Go to Linker --> General --> Additional Library Directories and insert `.lib`
+6. Go to Linker --> Input --> Additional Dependencies and insert `freeglut.lib; opengl32.lib; winmm.lib; irrklang.lib`
+7. Save all changes
+8. Run the code :)
 
 SOUND SOURCES:
 “Roblox Death Sound - Sound Effect (HD).” Www.youtube.com, www.youtube.com/watch?v=3w-2gUSus34.
