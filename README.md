@@ -18,7 +18,7 @@ To run my code:
 	using namespace irrklang;`
 
 2. In the project folder where main.cpp will be housed, place the audio folder & main.cpp into that directory
-3. Place the provided `include` & `lib` directories into the project directory
+3. Place the provided `audio`, `include`, & `lib` directories into the project directory
 4. Go to Project Properties --> C/C++ --> General --> Additional Include Directories and insert `./include`
 5. Go to Linker --> General --> Additional Library Directories and insert `.lib`
 6. Go to Linker --> Input --> Additional Dependencies and insert `freeglut.lib; opengl32.lib; winmm.lib; irrklang.lib`
