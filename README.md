@@ -5,7 +5,7 @@ To run the executable:
    
 To run my code:
 1. The VS2022 project needs to be setup to support the following includes:
-	#include <GL/glut.h>
+	`#include <GL/glut.h>
 	#include <GL/freeglut.h>
 	#include <windows.h>
 	#include <mmsystem.h>
@@ -14,7 +14,7 @@ To run my code:
 	#include <cstdlib>
 	#include <vector>
 	#include <irrKlang/irrKlang.h>
-	using namespace irrklang;
+	using namespace irrklang;`
 2. In the project folder where main.cpp will be housed, place the audio folder into that directory
 3. Go into the provided IRRKLANG folder and take and place irrKlang.lib file into the ./lib directory (make sure to include irrklang.lib as an Additional Dependency in Project Properties-->Linker-->General)
 4. In the same IRRKLANG folder, take the IrrKlang folder and place into the ./include directory
