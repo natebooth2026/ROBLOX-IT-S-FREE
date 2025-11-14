@@ -17,14 +17,13 @@ To run my code:
 	#include <irrKlang/irrKlang.h>
 	using namespace irrklang;`
 
-2. In the project folder where main.cpp will be housed, place the audio folder & main.cpp into that directory
-3. Place the provided `audio`, `include`, & `lib` directories into the project directory
-4. Place the provided `.dll` files into the project directory
-5. Go to Project Properties --> C/C++ --> General --> Additional Include Directories and insert `./include`
-6. Go to Linker --> General --> Additional Library Directories and insert `.lib`
-7. Go to Linker --> Input --> Additional Dependencies and insert `freeglut.lib; opengl32.lib; winmm.lib; irrklang.lib`
-8. Save all changes
-9. Run the code :)
+2. Place the provided `audio`, `include`, & `lib` directories as well as main.cpp into the project directory
+3. Place the provided `.dll` files into the project directory
+4. Go to Project Properties --> C/C++ --> General --> Additional Include Directories and insert `./include`
+5. Go to Linker --> General --> Additional Library Directories and insert `./lib`
+6. Go to Linker --> Input --> Additional Dependencies and insert `freeglut.lib; opengl32.lib; winmm.lib; irrklang.lib`
+7. Save all changes
+8. Run the code :)
 
 SOUND SOURCES:
 “Roblox Death Sound - Sound Effect (HD).” Www.youtube.com, www.youtube.com/watch?v=3w-2gUSus34.
